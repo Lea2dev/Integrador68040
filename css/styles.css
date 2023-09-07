@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+/*
+font-family: 'Coiny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root{
+    font-size: 16px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header, section, aside{
+    padding: 0px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encolumnar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.encolumnarRedes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.separador{
+    border-bottom: 1px solid #808080;
+}
+
+aside{
+    color: #808080;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(242, 242, 242);
+    margin: 0px;
+    font-size: 2em;
+}
+.coiny{
+    font-family: 'Coiny', cursive;
+}
+
+.tamanioTitulo{
+    font-size: 50px;
+}
+
+.al80{
+    width: 80%;
+}
+
+.al100{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+    max-width: 800px;
+}
+
+footer{
+    background-color: #FCEE21 ;
+    padding:10px 50px;
+}
+
+footer h1{
+    display: inline;
+    font-size: 33px;
+    margin-right: 80px;
+}
+
+.font2p5em{
+    font-size: 2.5em;
+    line-height: 0.7em;
+}
+
+h1,h2,h3,h4{
+    font-size: 26.6px;
+}
+
+h2,h3{
+    background-color: #FCEE21 ;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover{
+    color:#888;
+}
+
+li a{
+    margin-left: 50px;
+}
+
+ol{
+    font-size: 32px;
+    font-weight: 400;
+    list-style-position: outside;
+    line-height: 60px;
+}
+
+/*
+ol li{
+    display: inline;
+}
+*/
+
+ul{
+    list-style-type: none;
+}
+
+input, textarea, label{
+    display: block;
+    font-size: 26.6px;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 32px;
+    background-color: #000;
+    color: #FFF;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+h4{
+    font-size: 54.6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h5{
+    color: #FFF;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 120px;
+    display: inline;
+}
+
+.amarillo{
+    background-color: #FCEE21;
+    font-weight: bold;
+}
+
+.rojo{
+    color: #d01212;
+}
+
+
+@media screen and (max-width:860px) {
+    .encolumnar{
+        flex-flow: column;
+    }
+
+    section img{
+        display: none;
+    }
+
+    aside img{
+        width: 60%;
+    }
+}
+
+@media print{
+    img{
+        display: none;
+    }
+    .encolumnar{
+        flex-flow: column;
+    }
+
+    form{
+        display: none;
+    }
+
+}
+
